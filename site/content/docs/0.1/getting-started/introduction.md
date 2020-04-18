@@ -1,10 +1,10 @@
 ---
 layout: docs
 title: Introduction
-description: Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.
+description: Getting started with Scoutstrap, the Scout themed bolt-on for Bootstrap.
 group: getting-started
 aliases:
-  - "/docs/4.3/getting-started/"
+  - "/docs/0.1/getting-started/"
   - "/docs/getting-started/"
   - "/getting-started/"
 toc: true
@@ -31,13 +31,11 @@ Many of our components require the use of JavaScript to function. Specifically, 
 <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
 {{< /highlight >}}
 
-If you use `<script type="module">`, please refer to our [using Bootstrap as a module]({{< docsref "/getting-started/javascript#using-bootstrap-as-a-module" >}}) section.
+
 
 Curious which components explicitly require our JavaScript and Popper.js? Click the show components link below. If you're at all unsure about the general page structure, keep reading for an example page template.
 
-Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https://popper.js.org/). For more information about what's included in Bootstrap, please see our [contents]({{< docsref "/getting-started/contents#precompiled-bootstrap" >}}) section.
-
-{{< partial "getting-started/components-requiring-javascript" >}}
+Our `bootstrap.bundle.js` and `bootstrap.bundle.min.js` include [Popper](https://popper.js.org/). For more information about what's included in Bootstrap, please see our [contents] section.
 
 ## Starter template
 
@@ -67,7 +65,7 @@ Be sure to have your pages set up with the latest design and development standar
 </html>
 {{< /highlight >}}
 
-That's all you need for overall page requirements. Visit the [Layout docs]({{< docsref "/layout/overview" >}}) or [our official examples]({{< docsref "/examples" >}}) to start laying out your site's content and components.
+That's all you need for overall page requirements. Visit the [Layout docs] or [our official examples]({{< docsref "/examples" >}}) to start laying out your site's content and components.
 
 ## Important globals
 

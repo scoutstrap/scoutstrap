@@ -8,7 +8,7 @@ toc: true
 
 ## Color
 
-Colorize text with color utilities. If you want to colorize links, you can use the [`.link-*` helper classes]({{< docsref "/helpers/colored-links" >}}) which have `:hover` and `:focus` states.
+Colorize text with color utilities. If you want to colorize links, you can use the which have `:hover` and `:focus` states.
 
 {{< example >}}
 {{< colors.inline >}}

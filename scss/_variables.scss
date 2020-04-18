@@ -1,0 +1,46 @@
+//Styling
+$enable-rounded: false;
+
+//Colours
+//$scoutpurple: #7413dc; //For some reason the corporate site uses the darker purple!?
+$scoutpurple: #490499;
+$scoutteal: #00b8a3;
+$scoutred: #ed3f23;
+$scoutpink: #ffb4e5;
+$scoutgreen: #25b755;
+$scoutnavy: #003982;
+$scoutblue: #006ddf;
+$scoutyellow: #ffe627;
+
+//Set colour overrides
+$purple: $scoutpurple;
+$teal: $scoutteal;
+$red: $scoutred;
+$pink: $scoutpink;
+$green: $scoutgreen;
+$blue: $scoutblue;
+$yellow: $scoutyellow;
+
+$primary: $scoutpurple;
+$secondary: $scoutteal;
+$info: $scoutblue;
+$light: #f1f1f1;
+$dark: #000;
+
+$body-color: #404040;
+$link-color: #0061CE;
+$link-decoration: null;
+$link-hover-decoration: underline;
+
+// Typography 
+$font-family-base: "Nunito Sans";
+$headings-font-weight: 900;
+
+// Navbar Styling
+$navbar-brand-padding-y: 1rem;
+
+// Button Styling
+$btn-font-weight: 700;
+$btn-padding-x: .75rem;
+$btn-padding-y: .25rem;
+$btn-line-height: 1.4;

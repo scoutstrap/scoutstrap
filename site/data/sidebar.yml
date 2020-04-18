@@ -1,0 +1,27 @@
+- title: Getting started
+  pages:
+    - title: Introduction
+    - title: Download
+    - title: Contributing
+
+- title: Components
+  pages:
+    - title: Overview
+    - title: Typography
+    - title: Modules
+
+- title: Icons
+  pages:
+    - title: Logo
+    - title: Sections
+
+- title: About
+
+
+- title: About-old
+  pages:
+    - title: Overview
+    - title: Team
+    - title: Brand
+    - title: License
+    - title: Translations

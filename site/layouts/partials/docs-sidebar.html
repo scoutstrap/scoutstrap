@@ -1,0 +1,45 @@
+<nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
+  {{- $url := split .Permalink "/" -}}
+  {{- $page_slug := index $url (sub (len $url) 2) -}}
+
+  <ul class="list-unstyled mb-0">
+  {{- range $group := .Site.Data.sidebar -}}
+    {{- $link := $group.title -}}
+    {{- $link_slug := $link | urlize -}}
+
+    {{- if $group.pages -}}
+      {{- $link = index $group.pages 0 -}}
+      {{- $link_slug = $link.title | urlize -}}
+    {{- end -}}
+
+    {{- $group_slug := $group.title | urlize -}}
+    {{- $active_group := eq $.Page.Params.group $group_slug }}
+
+    <li class="my-1{{ if $active_group }} active{{ end }}">
+      <a class="{{ if not $active_group }} collapsed{{ end }}" data-toggle="collapse" href="#{{ $group_slug }}-collapse" role="button" aria-expanded="{{ $active_group }}"{{ if $active_group }} aria-current="true"{{ end }}>
+        {{ $group.title }}
+      </a>
+
+      {{- if $group.pages }}
+      <ul class="list-unstyled mb-2 collapse{{ if $active_group }} show{{ end }}" id="{{ $group_slug }}-collapse">
+        {{- range $doc := $group.pages -}}
+          {{- $doc_slug := $doc.title | urlize }}
+          <li>
+            <a href="/docs/{{ $.Site.Params.docs_version }}/{{ $group_slug }}/{{ $doc_slug }}/"{{ if and $active_group (eq $page_slug $doc_slug) }} class="active" aria-current="page"{{ end }}>
+              {{- $doc.title -}}
+            </a>
+          </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </li>
+  {{- end }}
+
+    <li class="my-3 mx-4 border-top"></li>
+    <li>
+      <a href="https://getbootstrap.com/docs/" target="_new">
+        Bootstrap Docs
+      </a>
+    </li>
+  </ul>
+</nav>

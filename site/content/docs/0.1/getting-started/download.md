@@ -1,20 +1,21 @@
 ---
 layout: docs
 title: Download
-description: Download Bootstrap to get the compiled CSS and JavaScript, source code, or include it with your favorite package managers like npm, RubyGems, and more.
+description: Download a compiled CSS and JS package to get started, or include with a package manager!
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Compiled CSS and JS
 
-Download ready-to-use compiled code for **Bootstrap v{{< param current_version >}}** to easily drop into your project, which includes:
+Download ready-to-use compiled code for **Scoutstrap v{{< param current_version >}}** to easily drop into your project, which includes:
 
 - Compiled and minified JavaScript plugins
 
 This doesn't include documentation, source files, or any optional JavaScript dependencies like Popper.js.
 
-<a href="{{< param "download.dist" >}}" class="btn btn-bd-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download Bootstrap');">Download</a>
+<a href="{{< param "download.dist" >}}" class="btn btn-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download Bootstrap');">Download</a>
+
 
 ## Source files
 
@@ -23,11 +24,14 @@ Compile Bootstrap with your own asset pipeline by downloading our source Sass, J
 - Sass compiler (Libsass or Ruby Sass is supported) for compiling your CSS.
 - [Autoprefixer](https://github.com/postcss/autoprefixer) for CSS vendor prefixing
 
-<a href="{{< param "download.source" >}}" class="btn btn-bd-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download source');">Download source</a>
+<a href="{{< param "download.source" >}}" class="btn btn-secondary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download source');">Download source</a>
 
-## BootstrapCDN
+## CDN
 
-Skip the download with [BootstrapCDN](https://www.bootstrapcdn.com/) to deliver cached version of Bootstrap's compiled CSS and JS to your project.
+To be tested and written
+
+
+<!-- Skip the download with [BootstrapCDN](https://www.bootstrapcdn.com/) to deliver cached version of Bootstrap's compiled CSS and JS to your project.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="{{< param "cdn.css" >}}" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
@@ -38,13 +42,13 @@ If you're using our compiled JavaScript, don't forget to include Popper.js, via 
 
 {{< highlight html >}}
 <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
-{{< /highlight >}}
+{{< /highlight >}} -->
 
 ## Package managers
 
-Pull in Bootstrap's **source files** into nearly any project with some of the most popular package managers. No matter the package manager, Bootstrap will **require a Sass compiler and [Autoprefixer](https://github.com/postcss/autoprefixer)** for a setup that matches our official compiled versions.
+To be tested & written
 
-### npm
+<!-- ### npm
 
 Install Bootstrap in your Node.js powered apps with [the npm package](https://www.npmjs.com/package/bootstrap):
 
@@ -86,4 +90,4 @@ Install-Package bootstrap
 
 {{< highlight powershell >}}
 Install-Package bootstrap.sass
-{{< /highlight >}}
+{{< /highlight >}} -->

@@ -7,10 +7,13 @@ aliases:
   - "/docs/0.1/getting-started/"
   - "/docs/getting-started/"
   - "/getting-started/"
-toc: true
+toc: false
 ---
 
-## Quick start
+## ToDo
+To be written
+
+<!-- ## Quick start
 
 Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? [Head to the downloads page]({{< docsref "/getting-started/download" >}}).
 
@@ -45,11 +48,9 @@ Be sure to have your pages set up with the latest design and development standar
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{< param "cdn.css" >}}" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
 
     <title>Hello, world!</title>
@@ -57,8 +58,7 @@ Be sure to have your pages set up with the latest design and development standar
   <body>
     <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
+
     <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
     <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
   </body>
@@ -110,4 +110,4 @@ Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box
 
 ### Reboot
 
-For improved cross-browser rendering, we use [Reboot]({{< docsref "/content/reboot" >}}) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
+For improved cross-browser rendering, we use to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements. -->

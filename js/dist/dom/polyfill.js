@@ -1,6 +1,6 @@
 /*!
   * Bootstrap polyfill.js v0.1.0 (https://scoutstrap.github.io)
-  * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Copyright 2011-2020 Scoutstrap Authors
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {

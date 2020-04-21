@@ -14,9 +14,10 @@
     "scouts"
   ],
   "homepage": "https://scoutstrap.github.io",
-  "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
+  "author": "Scoutstrap Authors",
   "contributors": [
-    "Twitter, Inc."
+    "Twitter, Inc.",
+    "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)"
   ],
   "scripts": {
     "start": "npm-run-all --parallel watch docs-serve",
@@ -70,22 +71,18 @@
     "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm-run-all js-lint js-compile\"",
     "watch-js-docs": "nodemon --watch site/assets/js/ --ext js --exec \"npm run js-lint\""
   },
-  "style": "dist/css/bootstrap.css",
-  "sass": "scss/bootstrap.scss",
+  "style": "dist/css/scoutstrap.css",
+  "sass": "scss/scoutstrap.scss",
   "main": "dist/js/bootstrap.js",
   "module": "dist/js/bootstrap.esm.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/scoutstrap/scoutstrap.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/scoutstrap/scoutstrap/issues"
   },
   "license": "MIT",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/bootstrap"
-  },
   "dependencies": {},
   "peerDependencies": {
     "popper.js": "^1.16.0"

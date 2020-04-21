@@ -82,20 +82,14 @@
   color: #e6e6e6;
 }
 
-.svg-icon {
-  width: 1em;
-  height: 1em;
+.bi {
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .icon-med {
   width: 1.5em;
   height: 1.5em;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #4691f6;
 }
 
 .icon-white path,

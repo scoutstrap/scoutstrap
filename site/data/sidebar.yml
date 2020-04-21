@@ -7,6 +7,10 @@
 - title: Components
   pages:
     - title: Overview
+
+    - name: spacer
+      url: none
+
     - title: Typography
     - title: Modules
 
@@ -16,12 +20,6 @@
     - title: Sections
 
 - title: About
-
-
-- title: About-old
   pages:
     - title: Overview
-    - title: Team
-    - title: Brand
-    - title: License
-    - title: Translations
+    - title: Credits

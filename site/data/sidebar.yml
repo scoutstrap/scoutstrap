@@ -14,10 +14,11 @@
     - title: Typography
     - title: Modules
 
-- title: Icons
+- title: Graphics
   pages:
-    - title: Logo
-    - title: Sections
+    - title: Logos
+    - title: Icons
+    - title: Section Logos
 
 - title: About
   pages:

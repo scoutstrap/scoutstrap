@@ -12,8 +12,12 @@ Contributions to the project are very welcome, open a pull request and we'll loo
 
 
 ## ToDo
-Features and things we want to do:
+Features and things we want/need to do:
+- Write intro and contributing docs pages
 - Add in multiple variations of colours (i.e. different primaries)
+- Add in more colour helpers 
+- Add in section logos & helpers
 - Further styles and options of Navbars
+- Create examples, current examples are directly from Bootstrap
 
 Open an issue if you have any other requests!

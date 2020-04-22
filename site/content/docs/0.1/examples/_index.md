@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Examples
-description: Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.
+description: The below examples are from Bootstrap, Scoutstrap examples to follow, but have a look with our styling.
 aliases: "/examples/"
 ---
 

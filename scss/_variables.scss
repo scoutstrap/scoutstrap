@@ -44,3 +44,17 @@ $btn-font-weight: 700;
 $btn-padding-x: .75rem;
 $btn-padding-y: .25rem;
 $btn-line-height: 1.4;
+
+// Sizes to compute for logo
+$logoSizes: (
+  "150": 150px,
+  "200": 200px,
+  "250": 250px,
+  "300": 300px,
+  "350": 350px,
+  "400": 400px,
+  "450": 450px,
+  "500": 500px,
+  "550": 550px,
+  "600": 600px
+);

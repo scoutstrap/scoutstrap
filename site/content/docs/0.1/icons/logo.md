@@ -7,7 +7,7 @@ aliases:
   - "/docs/0.1/icons/"
   - "/docs/icons/"
   - "/icons/"
-toc: false
+toc: true
 ---
 
 ## Overview
@@ -66,7 +66,41 @@ Apply the colour classes to change the colour of the icon:
 <svg class="bi bi-scout-fleur bi-light" viewBox="0 0 20 20"> <!-- SVG Data ---> </svg>
 {{< /highlight >}}
 
-<div class="inline-logo" style="width: 400px; height: 200px;">
+## Logo
+We've added the logo into the stylesheet, all you need to do is copy the below code and change the name to get a web friendly custom logo. Simple as that, no need for a logo generator!
+
+### Inline
+
+The inline (horizontal) logo:
+
+<p>
+<div class="inline-logo inline-logo-250">
+  <h6>1st Group</h6>
+</div>
+</p>
+
+{{< highlight html >}}
+<div class="inline-logo inline-logo-250">
+  <h6>1st Group</h6>
+</div> 
+{{< /highlight >}}
+
+### Vertical
+
+The vertical logo:
+
+<div class="inline-logo inline-logo-150">
 <h6>Suffolk</h6>
 </div>
-
+<br />
+<div class="inline-logo inline-logo-200">
+<h6>Suffolk</h6>
+</div> 
+<br />
+<div class="inline-logo inline-logo-250">
+<h6>Suffolk</h6>
+</div> 
+<br />
+<div class="inline-logo inline-logo-300 logo-primary">
+<h6>Suffolk</h6>
+</div> 

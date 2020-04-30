@@ -26,7 +26,7 @@ const configFile = path.join(__dirname, '../config.yml')
 // `configPropertyName` is the config.yml variable's name of the file
 const files = [
   {
-    file: 'dist/css/bootstrap.min.css',
+    file: 'dist/css/scoutstrap.min.css',
     configPropertyName: 'css_hash'
   },
   {

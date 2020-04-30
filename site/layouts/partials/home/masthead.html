@@ -1,23 +1,23 @@
-<main class="mb-3 mb-md-5 border-bottom bg-light" style="padding: 3rem;" id="content">
+<main class="mb-3 mb-md-5 border-bottom bg-primary" style="padding: 3rem;" id="content">
   <div class="container">
     <div class="row">
       <div class="col-6 mx-auto col-md-4 order-md-2 col-lg-5">
-        {{ partial "icons/bootstrap-stack.svg" (dict "class" "img-fluid mb-3 mb-md-0" "width" "512" "height" "430") }}
+        {{ partial "icons/scoutstrap-stack.svg" (dict "class" "img-fluid ml-5 mb-3 mb-md-0" "width" "300" "height" "300") }}
       </div>
       <div class="col-md-8 order-md-1 col-lg-6 text-center text-md-left">
-        <p class="lead lead-lg">
-          Create on-brand scouting web content for both mobile and desktop.
+        <p class="lead lead-lg text-white">
+          Easily create on-brand scouting web content for both mobile and desktop.
         </p>
-        <p class="mb-4">
+        <p class="mb-4 text-white">
           We've built this Bootstrap fork to aid with the creation of quality branded content. If you're already familuar with Bootstrap it's as easy as changing the stylesheet, if not check out the documentation and examples to get started.
         </p>
 
         <div class="d-flex flex-column flex-md-row">
-          <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-outline-primary w-100 mb-3 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">Get started</a>
+          <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-outline-light w-100 mb-3 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">Get started</a>
           <a href="/docs/{{ .Site.Params.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary w-100 mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ .Site.Params.current_version }}');">Download</a>
-        </div>
+        </div> 
         <hr class="half-rule">
-        <p class="text-muted mb-0">
+        <p class="text-white-50 mb-0">
           Currently <strong>v{{ .Site.Params.current_version }}</strong>
           <span class="px-1">&middot;</span>
           based on Bootstrap <a href="https://getbootstrap.com/docs/versions/" class="">v{{ .Site.Params.current_bs_version }}</a>

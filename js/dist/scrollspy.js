@@ -1,5 +1,5 @@
 /*!
-  * Bootstrap scrollspy.js v0.1.0 (https://scoutstrap.github.io)
+  * Bootstrap scrollspy.js v0.1.1 (https://scoutstrap.github.io)
   * Copyright 2011-2020 Scoutstrap Authors
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */

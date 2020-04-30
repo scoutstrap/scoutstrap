@@ -1,8 +1,12 @@
 {{ "<!-- Icons by Bytesize https://github.com/danklammer/bytesize-icons -->" | safeHTML }}
 
 <div class="container py-3 my-3 py-md-5 my-md-5 text-center">
-  <div class="home-icon home-icon-blue mx-auto mb-3">
-    {{ partial "icons/import.svg" (dict "width" "48" "height" "48") }}
+  <div class="mx-auto mb-3">
+    <svg class="bi bi-download" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+    </svg>
   </div>
   <h2 class="display-4">Installation</h2>
   <p class="lead lead-lg mw-md-75 mx-auto">
@@ -31,24 +35,5 @@
     {{ highlight (printf (`<script src="%s" integrity="%s" crossorigin="anonymous"></script>
 <script src="%s" integrity="%s" crossorigin="anonymous"></script>
 `) .Site.Params.cdn.popper .Site.Params.cdn.popper_hash .Site.Params.cdn.js .Site.Params.cdn.js_hash) "html" "" }}
-  </div>
-</div>
-
-<div class="container py-3 my-3 py-md-5 my-md-5 text-center">
-  <div class="home-icon home-icon-yellow mx-auto mb-3">
-    {{ partial "icons/lightning.svg" (dict "width" "48" "height" "48") }}
-  </div>
-  <h2 class="display-4">Official Themes</h2>
-  <p class="lead lead-lg mw-md-75 mx-auto">
-    Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.
-  </p>
-  <a class="btn btn-lg btn-outline-primary mb-4" href="{{ .Site.Params.themes }}">Browse themes</a>
-  <div class="mx-5 border-bottom">
-    <img class="img-fluid mt-3 mx-auto" srcset="/docs/{{ .Site.Params.docs_version }}/assets/img/bootstrap-themes.png,
-                                                /docs/{{ .Site.Params.docs_version }}/assets/img/bootstrap-themes@2x.png 2x"
-                                        src="/docs/{{ .Site.Params.docs_version }}/assets/img/bootstrap-themes.png"
-                                        alt="Bootstrap Themes"
-                                        width="500" height="200"
-                                        loading="lazy">
   </div>
 </div>

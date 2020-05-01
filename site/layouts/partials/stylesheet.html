@@ -6,6 +6,9 @@
 
 <link href="/docs/{{ .Site.Params.docs_version }}/dist/css/scoutstrap.css" rel="stylesheet">
 
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
 {{- if (ne .Page.Layout "examples") }}
 {{- $targetDocsCssPath := printf "/docs/%s/assets/css/docs.css" .Site.Params.docs_version -}}
 {{- $sassOptions := dict "targetPath" $targetDocsCssPath "precision" 6 -}}

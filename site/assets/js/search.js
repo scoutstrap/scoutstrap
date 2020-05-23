@@ -26,8 +26,8 @@
   }
 
   window.docsearch({
-    apiKey: '5990ad008512000bba2cf951ccf0332f',
-    indexName: 'bootstrap',
+    apiKey: '2e6ae9e6115140f2e7486c0b9a348508',
+    indexName: 'scoutstrap',
     inputSelector: '#search-input',
     algoliaOptions: {
       facetFilters: ['version:' + siteDocsVersion]
@@ -35,7 +35,7 @@
     transformData: function (hits) {
       return hits.map(function (hit) {
         var currentUrl = getOrigin()
-        var liveUrl = 'https://getbootstrap.com'
+        var liveUrl = 'https://scoutstrap.github.io'
 
         // When in production, return the result as is,
         // otherwise remove our url from it.

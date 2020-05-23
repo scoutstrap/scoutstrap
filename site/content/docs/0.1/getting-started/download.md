@@ -28,25 +28,23 @@ Compile Bootstrap with your own asset pipeline by downloading our source Sass, J
 
 ## CDN
 
-To be tested and written
-
-
-<!-- Skip the download with [BootstrapCDN](https://www.bootstrapcdn.com/) to deliver cached version of Bootstrap's compiled CSS and JS to your project.
+Save on the download and hosting the code yourself by including cached copies from the JSDeliver CDN. Simply include the below resources in your project.
 
 {{< highlight html >}}
+<!-- CSS -->
 <link rel="stylesheet" href="{{< param "cdn.css" >}}" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+<!-- Javascript (optional, but required for some components) -->
 <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
-{{< /highlight >}}
-
-If you're using our compiled JavaScript, don't forget to include Popper.js, via a CDN preferably, before our JS.
-
-{{< highlight html >}}
 <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
-{{< /highlight >}} -->
+{{< /highlight >}}
 
 ## Package managers
 
-To be tested & written
+Not yet tested!
 
 <!-- ### npm
 
